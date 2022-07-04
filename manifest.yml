@@ -1,11 +1,11 @@
   applications:
   - name: onlinecourse
     routes: 
-      - route: leostaco321.apic.mybluemix.net
+      - route: leostaco321.us-south.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
     routes:
-      - route: leostaco321.apic.mybluemix.net/static
+      - route: leostaco321.us-south.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
